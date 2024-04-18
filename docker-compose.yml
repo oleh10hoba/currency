@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: currency_app
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: (F"t*")3.>4)Jn3ktd2aPu8KoFGsMK@~
